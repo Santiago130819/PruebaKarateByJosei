@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"132e79ed-9ab1-4c20-9512-a7984e745f4e",karate_version:"1.4.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>users.list-users</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2025-12-11 06:26:51 p. m.</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:6]"><span>[1:6]</span> <span>Obtener lista de usuarios exitosamente</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">users/list-users.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Listar usuarios de ServeRest</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:6]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:6]</span>
+                <span class="scenario-name">Obtener lista de usuarios exitosamente</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>538</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:6]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:6]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;usuarios&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">531</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.8">18:26:51.234 request:
+1 &gt; GET https://serverest.dev/usuarios
+1 &gt; Host: serverest.dev
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.7)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+18:26:51.746 response time in milliseconds: 509
+1 &lt; 200
+1 &lt; access-control-allow-origin: *
+1 &lt; x-dns-prefetch-control: off
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; strict-transport-security: max-age=15552000; includeSubDomains
+1 &lt; x-download-options: noopen
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-xss-protection: 1; mode=block
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; x-cloud-trace-context: 572d440acc2c05cd4682acf131b488a9
+1 &lt; date: Thu, 11 Dec 2025 23:26:51 GMT
+1 &lt; server: Google Frontend
+1 &lt; Content-Length: 17239
+{
+    &quot;quantidade&quot;: 77,
+    &quot;usuarios&quot;: [
+        {
+            &quot;nome&quot;: &quot;User Duplicado&quot;,
+            &quot;email&quot;: &quot;dup.api.1765492499316@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;false&quot;,
+            &quot;_id&quot;: &quot;0XseRuWXNAX2Jkl7&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;jessica teste&quot;,
+            &quot;email&quot;: &quot;teste@jessica.com.br&quot;,
+            &quot;password&quot;: &quot;1234567&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;0uxuPY0cbmQhpEz1&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Admin Produtos API&quot;,
+            &quot;email&quot;: &quot;admin.prod.1765491892711@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;30LAUbTKJTYHpSNS&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Admin Cypress API&quot;,
+            &quot;email&quot;: &quot;admin.api.1765493298767@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;3mLVa23WGa2GL8m9&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Elisacbibialmeida&quot;,
+            &quot;email&quot;: &quot;ellisacbibialmeida@qa.com.br&quot;,
+            &quot;password&quot;: &quot;teste&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;3tPiwZcBC2zNsPUh&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Lia03&quot;,
+            &quot;email&quot;: &quot;lia03@gft.com&quot;,
+            &quot;password&quot;: &quot;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;4HusTeNGHsBcFAop&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Admin Produtos API&quot;,
+            &quot;email&quot;: &quot;admin.prod.1765492001970@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;4YShLVPEDalF7ncV&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuário Cypress API&quot;,
+            &quot;email&quot;: &quot;user.api.1765492498880@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;56C0yYUKciMCKXuO&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuario QA 1765495609340&quot;,
+            &quot;email&quot;: &quot;qa1765495609340@qa.com&quot;,
+            &quot;password&quot;: &quot;12345&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;5hQqMo4lYQtLIasq&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuario QA 1765494766452&quot;,
+            &quot;email&quot;: &quot;qa1765494766452@qa.com&quot;,
+            &quot;password&quot;: &quot;12345&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;5ud7L7thHXx2tVcH&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;jessica qasim&quot;,
+            &quot;email&quot;: &quot;usuario368@example.com&quot;,
+            &quot;password&quot;: &quot;senha123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;7z9F4BJMJ5MVem7i&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;User Duplicado&quot;,
+            &quot;email&quot;: &quot;dup.api.1765492023059@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;false&quot;,
+            &quot;_id&quot;: &quot;8BmQDwTCzcIrcHd8&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Admin Produtos API&quot;,
+            &quot;email&quot;: &quot;admin.prod.1765493847064@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;8eyaPx3fzv2yCUs4&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuario QA 1765494707635&quot;,
+            &quot;email&quot;: &quot;qa1765494707635@qa.com&quot;,
+            &quot;password&quot;: &quot;12345&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;96ZIq9EC7EjmBK5j&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuário Duplicado Cypress&quot;,
+            &quot;email&quot;: &quot;duplicado.gui.1765492695616@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;9Dh6EJtQ8vqXyP4w&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuario QA 1765494761750&quot;,
+            &quot;email&quot;: &quot;qa1765494761750@qa.com&quot;,
+            &quot;password&quot;: &quot;12345&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;9FiAIn9V9D4UaD9w&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;jessica qasim&quot;,
+            &quot;email&quot;: &quot;usuario37@example.com&quot;,
+            &quot;password&quot;: &quot;senha123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;Af7r16C2vfGQpr4Q&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuario QA 1765494147448&quot;,
+            &quot;email&quot;: &quot;qa1765494147448@qa.com&quot;,
+            &quot;password&quot;: &quot;12345&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;CAv34A3kLJdzgn3m&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Admin Produtos API&quot;,
+            &quot;email&quot;: &quot;admin.prod.1765493294791@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;D9n9Xob0QJj8Qy5c&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;jessica qasim&quot;,
+            &quot;email&quot;: &quot;usuario18@example.com&quot;,
+            &quot;password&quot;: &quot;senha123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;GPv2T9Y8R8m4UrTK&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuário Cypress API&quot;,
+            &quot;email&quot;: &quot;user.api.1765493852646@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;IQ4C185Q18iI4DD5&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuario QA 1765495604321&quot;,
+            &quot;email&quot;: &quot;qa1765495604321@qa.com&quot;,
+            &quot;password&quot;: &quot;12345&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;LbYb8Bq7yjAKxHHT&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Admin Cypress API&quot;,
+            &quot;email&quot;: &quot;admin.api.1765492022408@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;M5xhgAg0NuN7SjC4&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuario QA 1765494149743&quot;,
+            &quot;email&quot;: &quot;qa1765494149743@qa.com&quot;,
+            &quot;password&quot;: &quot;12345&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;NQ1nRXBHi2L9puX0&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;jessica qasim&quot;,
+            &quot;email&quot;: &quot;usuario465@example.com&quot;,
+            &quot;password&quot;: &quot;senha123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;NUKGHS2kV8I85YYX&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Admin Cypress API&quot;,
+            &quot;email&quot;: &quot;admin.api.1765492498623@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;Oh60yrl1QMtwkYj7&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;jessica qasim&quot;,
+            &quot;email&quot;: &quot;usuario228@example.com&quot;,
+            &quot;password&quot;: &quot;senha123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;P8qHkHUd4AR8O4rS&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Admin Produtos API&quot;,
+            &quot;email&quot;: &quot;admin.prod.1765494551020@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;PcJ0eTD5Ul8HnGpb&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;jessica qasim&quot;,
+            &quot;email&quot;: &quot;usuario522@example.com&quot;,
+            &quot;password&quot;: &quot;senha123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;QH5asYtuGHOK7RPY&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;jessica qasim&quot;,
+            &quot;email&quot;: &quot;usuario323@example.com&quot;,
+            &quot;password&quot;: &quot;senha123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;QeG8phvbaO57BBzS&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Tiene França&quot;,
+            &quot;email&quot;: &quot;tienevf@gmail.com&quot;,
+            &quot;password&quot;: &quot;Tiene23###&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;SwgnJRmeb6VdJWW9&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Admin Default&quot;,
+            &quot;email&quot;: &quot;fulano@qa.com&quot;,
+            &quot;password&quot;: &quot;teste&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;UFQjfRVAjEg9NsJt&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuário Cypress API&quot;,
+            &quot;email&quot;: &quot;user.api.1765494558256@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;VK71gIibtZ8v3Gtv&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Admin Produtos API&quot;,
+            &quot;email&quot;: &quot;admin.prod.1765493846191@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;Vn7Uu3Uncoi5dRGt&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Admin Produtos API&quot;,
+            &quot;email&quot;: &quot;admin.prod.1765492489943@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;WZMS35oFPHeK8XhZ&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuario QA 1765494155088&quot;,
+            &quot;email&quot;: &quot;qa1765494155088@qa.com&quot;,
+            &quot;password&quot;: &quot;12345&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;Wrbq1FangUUTPs5R&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuario QA 1765494839899&quot;,
+            &quot;email&quot;: &quot;qa1765494839899@qa.com&quot;,
+            &quot;password&quot;: &quot;12345&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;XYEbFpxVFEkfbSvr&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuario Actualizado 1765494710292&quot;,
+            &quot;email&quot;: &quot;qa_atualizado1765494710292@qa.com&quot;,
+            &quot;password&quot;: &quot;54321&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;XrgXmSA8gvPFCtgx&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Admin Produtos API&quot;,
+            &quot;email&quot;: &quot;admin.prod.1765491892064@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;XzL9ekbWHWrNJAIr&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;User Duplicado&quot;,
+            &quot;email&quot;: &quot;dup.api.1765493853055@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;false&quot;,
+            &quot;_id&quot;: &quot;Y6h9KBA3kbETIWTx&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Admin Produtos API&quot;,
+            &quot;email&quot;: &quot;admin.prod.1765492001352@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;Z4qSV9tD5i4xntA4&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Admin Produtos API&quot;,
+            &quot;email&quot;: &quot;admin.prod.1765492490793@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;ZVUjMOk8IIgNZ7dv&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Lia02&quot;,
+            &quot;email&quot;: &quot;lia02@gft.com&quot;,
+            &quot;password&quot;: &quot;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;Zs523PMncPllBRFa&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuario Actualizado 1765494769168&quot;,
+            &quot;email&quot;: &quot;qa_atualizado1765494769168@qa.com&quot;,
+            &quot;password&quot;: &quot;54321&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;ZzHxlsVVbCIeVeN3&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Jessica Admin&quot;,
+            &quot;email&quot;: &quot;jessica.admin@teste.com&quot;,
+            &quot;password&quot;: &quot;1234&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;a6t673yJG1WvOB11&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuario QA 1765494936187&quot;,
+            &quot;email&quot;: &quot;qa1765494936187@qa.com&quot;,
+            &quot;password&quot;: &quot;12345&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;aeBrvGPTfKogYQcu&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuario Actualizado 1765494158261&quot;,
+            &quot;email&quot;: &quot;qa_atualizado1765494158261@qa.com&quot;,
+            &quot;password&quot;: &quot;54321&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;bZ00lfef7m8Nk2UC&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Admin Cypress API&quot;,
+            &quot;email&quot;: &quot;admin.api.1765493852385@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;buCeWzuf7wLJJxWe&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;jessica qasim&quot;,
+            &quot;email&quot;: &quot;usuario885@example.com&quot;,
+            &quot;password&quot;: &quot;senha123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;dNtqLM4IDQNMwFhf&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuário Cypress API&quot;,
+            &quot;email&quot;: &quot;user.api.1765493299005@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;dPfdFVY6KLzbjPaR&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Admin Produtos API&quot;,
+            &quot;email&quot;: &quot;admin.prod.1765493267265@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;ddG8qmORejViCZ93&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuário Cypress API&quot;,
+            &quot;email&quot;: &quot;user.api.1765492022654@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;f7MVZvnwHAUIf5qK&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;jessica qasim&quot;,
+            &quot;email&quot;: &quot;usuario468@example.com&quot;,
+            &quot;password&quot;: &quot;senha123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;fNXYFzBAP1ER6DQm&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuario QA 1765494760370&quot;,
+            &quot;email&quot;: &quot;qa1765494760370@qa.com&quot;,
+            &quot;password&quot;: &quot;12345&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;fchpYOt6xbkaCMyT&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuario QA 1765494700936&quot;,
+            &quot;email&quot;: &quot;qa1765494700936@qa.com&quot;,
+            &quot;password&quot;: &quot;12345&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;g3EgoTVN4JKXrx8g&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;jessica qasim&quot;,
+            &quot;email&quot;: &quot;usuario456@example.com&quot;,
+            &quot;password&quot;: &quot;senha123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;gM6kncjkZkgGyFd3&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuario QA 1765494702880&quot;,
+            &quot;email&quot;: &quot;qa1765494702880@qa.com&quot;,
+            &quot;password&quot;: &quot;12345&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;he7XytA3SoLQK7zH&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;jessica qasim&quot;,
+            &quot;email&quot;: &quot;usuario263@example.com&quot;,
+            &quot;password&quot;: &quot;senha123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;jHseEs0pX7JH7nt3&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;jessica qasim&quot;,
+            &quot;email&quot;: &quot;usuario934@example.com&quot;,
+            &quot;password&quot;: &quot;senha123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;jbehrFTQizIfzvl7&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;jessica qasim&quot;,
+            &quot;email&quot;: &quot;usuario117@example.com&quot;,
+            &quot;password&quot;: &quot;senha123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;k5I3XiRPE6oY8arX&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuario QA 1765494942298&quot;,
+            &quot;email&quot;: &quot;qa1765494942298@qa.com&quot;,
+            &quot;password&quot;: &quot;12345&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;klsYZ5PV5uQ9S1ev&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;User Duplicado&quot;,
+            &quot;email&quot;: &quot;dup.api.1765493299413@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;false&quot;,
+            &quot;_id&quot;: &quot;klvZXgbw0WFuk2UL&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Admin Produtos API&quot;,
+            &quot;email&quot;: &quot;admin.prod.1765493294175@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;lIapqepsOOq83YRv&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;jessica qasim&quot;,
+            &quot;email&quot;: &quot;usuario47@example.com&quot;,
+            &quot;password&quot;: &quot;senha123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;nL61Z3KfazuNpMfz&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;jessica teste&quot;,
+            &quot;email&quot;: &quot;teste@jessica.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;nSWPA2QjZydAAiui&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuario QA 1765494835547&quot;,
+            &quot;email&quot;: &quot;qa1765494835547@qa.com&quot;,
+            &quot;password&quot;: &quot;12345&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;p27DWBVBLd8iBV5j&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;User Duplicado&quot;,
+            &quot;email&quot;: &quot;dup.api.1765494558661@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;false&quot;,
+            &quot;_id&quot;: &quot;rXxu7Bp4zJqN9EZz&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuario Actualizado 1765494843065&quot;,
+            &quot;email&quot;: &quot;qa_atualizado1765494843065@qa.com&quot;,
+            &quot;password&quot;: &quot;54321&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;tJqAivWmJF9YJ8lw&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Admin Cypress API&quot;,
+            &quot;email&quot;: &quot;admin.api.1765494558003@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;tQnfDkX3IjN0bMIq&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Admin Produtos API&quot;,
+            &quot;email&quot;: &quot;admin.prod.1765493268121@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;u7haizPtOyHl8M57&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Admin Produtos API&quot;,
+            &quot;email&quot;: &quot;admin.prod.1765494550186@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;vY9sQzvgJeixjU8r&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuário Duplicado Cypress&quot;,
+            &quot;email&quot;: &quot;duplicado.gui.1765492587540@qa.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;wolCi96U3e06aK17&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuario QA 1765495602450&quot;,
+            &quot;email&quot;: &quot;qa1765495602450@qa.com&quot;,
+            &quot;password&quot;: &quot;12345&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;wv6BGDz1Hg8y32TN&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuario Actualizado 1765494944836&quot;,
+            &quot;email&quot;: &quot;qa_atualizado1765494944836@qa.com&quot;,
+            &quot;password&quot;: &quot;54321&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;xNlqZjNhg6PM01g0&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuario QA 1765494834157&quot;,
+            &quot;email&quot;: &quot;qa1765494834157@qa.com&quot;,
+            &quot;password&quot;: &quot;12345&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;xUlMH7MoZZhQDHHC&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;ramon&quot;,
+            &quot;email&quot;: &quot;ramonpiere@gmail.com&quot;,
+            &quot;password&quot;: &quot;m1n1b1&quot;,
+            &quot;administrador&quot;: &quot;false&quot;,
+            &quot;_id&quot;: &quot;zMOWnR1sWmtSDGp9&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuario QA 1765494937635&quot;,
+            &quot;email&quot;: &quot;qa1765494937635@qa.com&quot;,
+            &quot;password&quot;: &quot;12345&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;zOdATI2YRz3wNlSL&quot;
+        }
+    ]
+}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.quantidade == &#39;#number&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.usuarios == &#39;#[]&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
