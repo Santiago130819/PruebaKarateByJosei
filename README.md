@@ -13,6 +13,7 @@ ByJosei.
 
 ## Estructura del proyecto 
 
+```
 reto2-karate-serverest/
 │── pom.xml
 │── README.md
@@ -27,7 +28,7 @@ reto2-karate-serverest/
     │   ├── get-user.feature
     │   ├── update-user.feature
     │   └── delete-user.feature
-
+```
 ## Ejecutar
 
 ```bash
